@@ -88,8 +88,10 @@ public class GetData {
                             if (now.compareTo(oTime) > 0 && now.compareTo(cTime) < 0) {
                                 open = true;
                                 closeTime = closeTimes.get(j).text();
+                                break;
                             } else if (now.compareTo(oTime) < 0){
                                 openTime = openTimes.get(j).text();
+                                break;
                             }
 
                         }
