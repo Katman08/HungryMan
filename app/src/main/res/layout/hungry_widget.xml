@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.HungryMan.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.HungryMan.AppWidgetContainer">
+
+    <LinearLayout
+        android:id="@+id/loc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/loc1_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+        <TextView
+            android:id="@+id/loc1_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loc1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/loc2_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+        <TextView
+            android:id="@+id/loc2_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loc2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/loc3_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+        <TextView
+            android:id="@+id/loc3_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loc3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/loc4_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+        <TextView
+            android:id="@+id/loc4_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeholder"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>
